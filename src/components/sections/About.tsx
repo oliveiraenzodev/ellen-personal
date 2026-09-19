@@ -26,17 +26,17 @@ export function About() {
           <p className="eyebrow">Sobre Ellen</p>
           <h2>Você não precisa de um treino genérico.</h2>
           <p className="about__intro">
-            Precisa de uma estratégia que faça sentido para a sua realidade.
+            Quero construir com você uma estratégia que faça sentido para a sua realidade.
           </p>
           <p>
-            Ellen Alves é Personal Trainer e atua há 5 anos acompanhando pessoas
-            que buscam emagrecimento e hipertrofia. Seu trabalho parte de um olhar
-            individual para o objetivo, a rotina e o momento de cada aluno.
+            Sou Ellen Alves, Personal Trainer, e há 5 anos acompanho pessoas que
+            buscam emagrecimento e hipertrofia. Meu trabalho começa entendendo seu
+            objetivo, sua rotina e o momento que você está vivendo.
           </p>
           <p>
-            Com atendimento presencial em Salvador e consultoria online, a proposta
-            é tornar o processo mais claro, próximo e consistente, com disponibilidade
-            para acompanhar cada etapa da evolução.
+            Atendo presencialmente em Salvador e também por consultoria online. Quero
+            tornar seu processo mais claro, próximo e consistente, estando disponível
+            para acompanhar cada etapa da sua evolução.
           </p>
           <div className="about__signature">
             <div>

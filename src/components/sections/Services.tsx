@@ -9,7 +9,7 @@ export function Services() {
           <SectionHeading
             eyebrow="Serviços"
             title="Acompanhamento que se adapta a você."
-            description="Escolha o ponto de partida. O treinamento é construído de acordo com seu objetivo e sua rotina."
+            description="Eu entendo seu ponto de partida e construo o treinamento de acordo com seu objetivo e sua rotina."
           />
         </div>
 
@@ -26,7 +26,7 @@ export function Services() {
         </div>
 
         <div className="differentials" data-reveal="up">
-          <p className="eyebrow">O que você encontra aqui</p>
+          <p className="eyebrow">O que eu ofereço a você</p>
           <ul>
             {siteConfig.differentials.map((item) => (
               <li key={item}>

@@ -11,7 +11,7 @@ export function Results() {
           <SectionHeading
             eyebrow="Resultados reais"
             title="Evolução construída com constância."
-            description="Registros reais de pessoas acompanhadas por Ellen. Cada processo é individual e os resultados variam conforme rotina, adesão e ponto de partida."
+            description="Estes são registros reais de pessoas que acompanhei. Cada processo é individual e os resultados variam conforme rotina, adesão e ponto de partida."
             light
           />
           <p className="results__index" aria-hidden="true">
@@ -22,7 +22,7 @@ export function Results() {
         <ResultsGallery />
 
         <div className="results__cta">
-          <p>O próximo processo pode começar com uma conversa.</p>
+          <p>Quero conhecer seu objetivo. Nosso primeiro passo pode ser uma conversa.</p>
           <CtaLink href={getWhatsAppUrl()} target="_blank" rel="noreferrer">
             Quero começar meu processo
           </CtaLink>

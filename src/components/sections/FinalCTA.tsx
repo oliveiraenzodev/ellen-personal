@@ -17,14 +17,14 @@ export function FinalCTA() {
       </div>
       <div className="container final-cta__content" data-reveal="up">
         <p className="eyebrow">Seu primeiro passo é agora</p>
-        <h2>Pronta para começar sua evolução?</h2>
+        <h2>Vamos construir sua evolução?</h2>
         <p>
-          Conte seu objetivo para Ellen e descubra qual acompanhamento faz sentido
-          para você.
+          Me conte seu objetivo e vamos descobrir qual acompanhamento faz sentido
+          para a sua realidade.
         </p>
         <div className="final-cta__actions">
           <CtaLink href={getWhatsAppUrl()} target="_blank" rel="noreferrer">
-            Falar com Ellen no WhatsApp
+            Entre em contato
           </CtaLink>
           <SocialIconLink
             className="final-cta__instagram"

@@ -14,7 +14,7 @@ export function Footer() {
             width={1280}
             height={384}
           />
-          <p>Treinamento com estratégia, acompanhamento e respeito ao seu processo.</p>
+          <p>Eu acompanho seu processo com estratégia, proximidade e respeito ao seu ritmo.</p>
         </div>
 
         <div>

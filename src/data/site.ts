@@ -25,54 +25,54 @@ export const siteConfig = {
       number: "01",
       title: "Consultoria online",
       description:
-        "Acompanhamento à distância com um treinamento pensado para seu objetivo, sua rotina e o ambiente onde você treina.",
+        "Acompanho você à distância com um treinamento pensado para seu objetivo, sua rotina e o ambiente onde você treina.",
     },
     {
       number: "02",
       title: "Treinamento personalizado",
       description:
-        "Acompanhamento individual e presencial em Salvador, com atenção à execução e à evolução de cada treino.",
+        "No atendimento presencial em Salvador, acompanho de perto sua execução e a evolução de cada treino.",
     },
     {
       number: "03",
       title: "Foco em emagrecimento",
       description:
-        "Treinamento direcionado ao processo de emagrecimento, respeitando seu momento e construindo constância.",
+        "Direciono seu treinamento para o processo de emagrecimento, respeitando seu momento e construindo constância.",
     },
     {
       number: "04",
       title: "Avaliação física",
       description:
-        "Um ponto de partida para direcionar o treinamento e acompanhar sua evolução de forma individualizada.",
+        "Avalio seu ponto de partida para direcionar o treinamento e acompanhar sua evolução de forma individualizada.",
     },
   ],
   differentials: [
-    "Atendimento personalizado",
-    "Acompanhamento próximo",
-    "Disponibilidade durante o processo",
-    "Treino alinhado ao seu objetivo",
-    "Atendimento presencial e online",
+    "Atendimento pensado para você",
+    "Acompanho sua evolução de perto",
+    "Estou disponível durante o processo",
+    "Alinho o treino ao seu objetivo",
+    "Atendo presencialmente e online",
   ],
   process: [
     {
       number: "01",
-      title: "Entre em contato",
-      description: "Chame Ellen no WhatsApp e dê o primeiro passo.",
+      title: "Fale comigo",
+      description: "Me chame no WhatsApp para darmos o primeiro passo.",
     },
     {
       number: "02",
       title: "Conte seu objetivo",
-      description: "Converse sobre sua rotina, momento e o que deseja alcançar.",
+      description: "Quero conhecer sua rotina, seu momento e o que você deseja alcançar.",
     },
     {
       number: "03",
       title: "Defina o acompanhamento",
-      description: "Escolha a modalidade que melhor se adapta à sua realidade.",
+      description: "Juntos, definimos a modalidade que melhor se adapta à sua realidade.",
     },
     {
       number: "04",
       title: "Comece sua evolução",
-      description: "Inicie o treinamento com orientação e acompanhamento próximo.",
+      description: "Começamos seu treinamento com orientação e acompanhamento próximo.",
     },
   ],
   results: [
@@ -105,17 +105,17 @@ export const siteConfig = {
     {
       question: "O acompanhamento pode ser online?",
       answer:
-        "Sim. Ellen atende presencialmente em Salvador e também oferece consultoria online.",
+        "Sim. Atendo presencialmente em Salvador e também ofereço consultoria online.",
     },
     {
       question: "O treinamento é individualizado?",
       answer:
-        "Sim. A proposta é adaptar o treinamento ao objetivo, à rotina e às necessidades de cada aluno.",
+        "Sim. Eu adapto o treinamento ao seu objetivo, à sua rotina e às suas necessidades.",
     },
     {
       question: "Como descubro qual serviço é ideal para mim?",
       answer:
-        "Entre em contato pelo WhatsApp, conte seu objetivo e tire suas dúvidas diretamente com Ellen.",
+        "Me chame pelo WhatsApp, conte seu objetivo e vamos descobrir juntos qual acompanhamento faz sentido para você.",
     },
   ],
 } as const;

@@ -9,7 +9,7 @@ export function HowItWorks() {
           <SectionHeading
             eyebrow="Como funciona"
             title="Do primeiro contato ao primeiro treino."
-            description="Um caminho simples para entender sua necessidade e encontrar o acompanhamento ideal."
+            description="Eu começo entendendo sua necessidade para definir com você o acompanhamento ideal."
           />
 
           <ol className="process__steps">

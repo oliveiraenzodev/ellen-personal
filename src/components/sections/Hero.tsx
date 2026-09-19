@@ -15,8 +15,8 @@ export function Hero() {
             Sua evolução.
           </h1>
           <p className="hero__lead">
-            Treinamento personalizado para quem busca emagrecimento ou hipertrofia
-            com estratégia, constância e acompanhamento de verdade.
+            Eu preparo um treinamento personalizado para você buscar emagrecimento
+            ou hipertrofia com estratégia, constância e acompanhamento de verdade.
           </p>
           <div className="hero__actions">
             <CtaLink href={getWhatsAppUrl()} target="_blank" rel="noreferrer">
@@ -53,9 +53,10 @@ export function Hero() {
             />
           </div>
           <div className="hero__stamp" aria-label="Foco em emagrecimento e hipertrofia">
-            <span>Emagrecimento</span>
-            <span>+</span>
-            <span>Hipertrofia</span>
+            <span>Foco do acompanhamento</span>
+            <strong>
+              Emagrecimento <em>+</em> Hipertrofia
+            </strong>
           </div>
         </div>
       </div>
