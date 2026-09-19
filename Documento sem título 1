@@ -1,0 +1,92 @@
+1.
+Nome: Ellen Alves
+Profissão: Personal Trainer
+Cidade e região de atendimento: Salvador e acompanhamento online
+Atende em ambas modalidades
+Tempo de experiencia: 5 anos
+CREF: 018219-G /BA
+Publico principal:
+	Emagrecimento e hipertrofia 
+Principais Servicos:
+Consultoria online
+	Treinamento personalizado
+	Consultoria online
+	Acompanhamento emagrecimento
+	Avaliação Física
+Diferenciais:
+	Atendimento personalizado 
+	disponibilidade para acompanhamento 
+	
+Crie uma frase/slogan interessante para ela
+
+2.
+objetivos:
+	captar novos alunos e direcionar ao whatsapp
+	
+	
+instagram: https://www.instagram.com/ellenalvestrainer/reels/
+whatsapp: 71 99942-5112
+
+3. Para identidade visual avalie o arquivo disposto em imagens chamado logo principal ele será a base para o site, utilize o restantes das imagens disponiveis para alimentar o site, as imagens nominadas antesDepois se tratam de imagens dos resultados dos pacientes dela 
+Quero um estilo forte e esportivo
+alguns sites referencia:
+-https://omeupersonaltrainer.com.br/
+-https://www.vanpersonal.com.br/
+
+Crie o site usando:
+- React + Vite
+- Next.js
+- Implementação de estilos globais afim de centralizar os estilos em classes css 
+- evitar usar else 
+
+Use uma arquitetura simples e organizada.
+O site deve ser:
+- Totalmente responsivo para celular, tablet e desktop.
+- Rápido e otimizado.
+- Acessível, com boa hierarquia de títulos, contraste e textos alternativos.
+- Otimizado para SEO.
+- Com botões de WhatsApp funcionando.
+- Com navegação suave entre as seções.
+- Com estados de hover e microanimações elegantes.
+- Sem informações fictícias apresentadas como reais.
+- Sem dependências desnecessárias.
+
+Direção de design
+
+Crie uma experiência visual diferenciada, evitando um layout genérico de academia.
+
+Priorize:
+- Hierarquia visual forte.
+- Excelente primeira impressão.
+- Tipografia profissional.
+- Composição visual equilibrada.
+- CTAs claros.
+- Boa experiência no celular.
+- Sensação de confiança, transformação e acompanhamento próximo.
+
+Não use:
+- Gradientes exagerados.
+- Muitas cores sem propósito.
+- Texto genérico como “Lorem ipsum”.
+- Fotos ou depoimentos inventados sem deixá-los claramente marcados como conteúdo provisório.
+- Layout visualmente poluído.
+- Animações que prejudiquem a usabilidade.
+
+## 8. Entrega esperada
+
+Antes de implementar:
+1. Analise o projeto existente e sua estrutura.
+2. Explique brevemente a direção visual escolhida.
+3. Liste os arquivos que serão alterados ou criados.
+4. Implemente o site completo.
+
+Depois de implementar:
+1. Verifique se o projeto compila.
+2. Corrija erros de responsividade ou funcionamento.
+3. Revise o site em tamanhos de tela diferentes.
+4. Informe como executar o projeto.
+5. Liste quais conteúdos, imagens e links ainda precisam ser substituídos.
+
+Quero que você tome decisões de design profissionais sem pedir confirmação para cada detalhe, mas faça perguntas apenas quando uma informação for realmente necessária para evitar uma decisão incorreta.
+
+

@@ -1,0 +1,166 @@
+Use este briefing como prompt. Preencha os campos entre colchetes e me envie tudo em uma única mensagem:
+
+Quero que você crie um site profissional, moderno e responsivo para uma personal trainer.
+
+## 1. Informações da profissional
+
+Nome:
+Profissão/especialidade:
+Cidade e região de atendimento:
+Atende presencialmente, online ou ambos:
+Tempo de experiência:
+Certificações:
+Público principal:
+- [Ex.: mulheres iniciantes]
+- [Ex.: pessoas que querem emagrecer]
+- [Ex.: atletas/amadores]
+- [Ex.: pós-parto]
+
+Principais serviços:
+- [Ex.: consultoria online]
+- [Ex.: treinamento personalizado]
+- [Ex.: acompanhamento para emagrecimento]
+- [Ex.: avaliação física]
+
+Diferenciais da profissional:
+- 
+- 
+- 
+
+Frase ou slogan desejado:
+Tom da comunicação:
+- [Ex.: motivador, acolhedor, sofisticado, energético, direto]
+
+## 2. Objetivo do site
+
+O principal objetivo do site é:
+- [Ex.: captar alunos pelo WhatsApp]
+- [Ex.: vender consultoria online]
+- [Ex.: apresentar o trabalho]
+- [Ex.: permitir agendamento de avaliação]
+
+A principal ação que o visitante deve realizar é:
+- [Ex.: clicar em “Agendar avaliação”]
+- [Ex.: enviar mensagem no WhatsApp]
+- [Ex.: preencher um formulário]
+
+Número do WhatsApp:
+Instagram:
+E-mail:
+Endereço ou área de atendimento:
+
+## 3. Identidade visual
+
+Cores desejadas:
+Cores que devem ser evitadas:
+Estilo visual:
+- [Ex.: premium e sofisticado]
+- [Ex.: forte e esportivo]
+- [Ex.: feminino e acolhedor]
+- [Ex.: minimalista e elegante]
+
+Deseja usar fotos reais?:
+Links das fotos:
+Logo disponível?:
+Links de sites que servem de referência:
+Elementos visuais que gostaria de ter:
+- [Ex.: imagens de treino, texturas, formas orgânicas, gráficos, depoimentos]
+
+## 4. Estrutura desejada
+
+Crie uma página inicial com as seguintes seções:
+
+1. Hero inicial com uma chamada forte, subtítulo e botão de WhatsApp.
+2. Apresentação da personal trainer.
+3. Benefícios do acompanhamento personalizado.
+4. Serviços oferecidos.
+5. Como funciona o processo.
+6. Depoimentos de alunos.
+7. Galeria de fotos ou resultados.
+8. Perguntas frequentes.
+9. Chamada final para conversão.
+10. Rodapé com contatos e redes sociais.
+
+Se considerar que outra seção melhoraria o resultado, inclua-a e explique brevemente o motivo.
+
+## 5. Requisitos técnicos
+
+Crie o site usando:
+- React + Vite
+- Next.js
+- Implementação de estilos globais afim de centralizar os estilos em classes css 
+- evitar usar else 
+- 
+
+Use uma arquitetura simples e organizada.
+O site deve ser:
+- Totalmente responsivo para celular, tablet e desktop.
+- Rápido e otimizado.
+- Acessível, com boa hierarquia de títulos, contraste e textos alternativos.
+- Otimizado para SEO.
+- Com botões de WhatsApp funcionando.
+- Com navegação suave entre as seções.
+- Com estados de hover e microanimações elegantes.
+- Sem informações fictícias apresentadas como reais.
+- Sem dependências desnecessárias.
+
+## 6. Direção de design
+
+Crie uma experiência visual diferenciada, evitando um layout genérico de academia.
+
+Priorize:
+- Hierarquia visual forte.
+- Excelente primeira impressão.
+- Tipografia profissional.
+- Composição visual equilibrada.
+- CTAs claros.
+- Boa experiência no celular.
+- Sensação de confiança, transformação e acompanhamento próximo.
+
+Não use:
+- Gradientes exagerados.
+- Muitas cores sem propósito.
+- Texto genérico como “Lorem ipsum”.
+- Fotos ou depoimentos inventados sem deixá-los claramente marcados como conteúdo provisório.
+- Layout visualmente poluído.
+- Animações que prejudiquem a usabilidade.
+
+## 7. Conteúdo
+
+Caso alguma informação esteja faltando, use textos provisórios claramente identificados com “[Substituir este texto]” em vez de inventar dados.
+
+Escreva textos persuasivos em português do Brasil, com linguagem natural e foco em conversão. Evite promessas médicas ou resultados garantidos.
+
+## 8. Entrega esperada
+
+Antes de implementar:
+1. Analise o projeto existente e sua estrutura.
+2. Explique brevemente a direção visual escolhida.
+3. Liste os arquivos que serão alterados ou criados.
+4. Implemente o site completo.
+
+Depois de implementar:
+1. Verifique se o projeto compila.
+2. Corrija erros de responsividade ou funcionamento.
+3. Revise o site em tamanhos de tela diferentes.
+4. Informe como executar o projeto.
+5. Liste quais conteúdos, imagens e links ainda precisam ser substituídos.
+
+Quero que você tome decisões de design profissionais sem pedir confirmação para cada detalhe, mas faça perguntas apenas quando uma informação for realmente necessária para evitar uma decisão incorreta.
+
+
+Para obter um resultado ainda melhor, envie também:
+
+- Fotos reais da profissional e dos treinos.
+- Logo, se existir.
+- Cores ou referências visuais.
+- Número do WhatsApp com DDD.
+- Instagram.
+- Depoimentos reais.
+- Cidade e modalidade de atendimento.
+- Exemplos de sites que você gosta.
+- Se o projeto já existe, o conteúdo dos arquivos principais ou permita que eu analise a estrutura do projeto.
+
+Se quiser uma direção inicial sem definir tudo, você pode usar este posicionamento:
+
+Site premium, feminino e energético para uma personal trainer que atende mulheres interessadas em emagrecimento, força e autoestima. Usar uma identidade visual sofisticada, com fundo escuro, detalhes em coral ou verde-lima, fotografias grandes, tipografia moderna e chamadas diretas para o WhatsApp. O site deve transmitir profissionalismo, acolhimento e transformação, sem parecer uma academia genérica.
