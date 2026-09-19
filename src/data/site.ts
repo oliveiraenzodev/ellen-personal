@@ -91,7 +91,7 @@ export const siteConfig = {
     {
       src: "/images/resultado-3.png",
       width: 1080,
-      height: 1920,
+      height: 1350,
       alt: "Registro lateral de evolução corporal de aluno acompanhado por Ellen Alves",
     },
     {

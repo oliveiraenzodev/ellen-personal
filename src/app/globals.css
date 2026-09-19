@@ -394,6 +394,19 @@ h2 {
   fill: currentColor;
 }
 
+.social-icon-link .instagram-icon {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.4;
+}
+
+.social-icon-link .instagram-icon__dot {
+  fill: currentColor;
+  stroke: none;
+}
+
 .mobile-menu {
   display: none;
 }
@@ -911,13 +924,21 @@ h2 {
   scroll-snap-align: start;
 }
 
-.result-card img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 9 / 16;
+.result-card__media {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
   background: #0b0c0c;
-  object-fit: contain;
+}
+
+.result-card__media img {
+  object-fit: cover;
   object-position: center;
+}
+
+.result-card--1 .result-card__media img,
+.result-card--4 .result-card__media img {
+  object-position: center 45%;
 }
 
 .result-card figcaption {

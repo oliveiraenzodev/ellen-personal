@@ -47,14 +47,15 @@ export function ResultsGallery() {
     <div className="results-gallery" data-reveal="up">
       <div className="results-gallery__track" ref={trackRef} onScroll={updateControls}>
         {siteConfig.results.map((result, index) => (
-          <figure className="result-card" key={result.src}>
-            <Image
-              src={result.src}
-              alt={result.alt}
-              width={result.width}
-              height={result.height}
-              sizes="(max-width: 767px) 82vw, (max-width: 1023px) 46vw, 280px"
-            />
+          <figure className={`result-card result-card--${index + 1}`} key={result.src}>
+            <div className="result-card__media">
+              <Image
+                src={result.src}
+                alt={result.alt}
+                fill
+                sizes="(max-width: 767px) 82vw, (max-width: 1023px) 46vw, 280px"
+              />
+            </div>
             <figcaption>
               <span>Resultado do acompanhamento</span>
               <strong>{String(index + 1).padStart(2, "0")}</strong>
