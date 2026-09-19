@@ -14,7 +14,7 @@ export function HowItWorks() {
 
           <ol className="process__steps">
             {siteConfig.process.map((step) => (
-              <li key={step.number}>
+              <li data-reveal="right" key={step.number}>
                 <span>{step.number}</span>
                 <div>
                   <h3>{step.title}</h3>
@@ -28,13 +28,13 @@ export function HowItWorks() {
 
       <section className="faq section" aria-labelledby="faq-title">
         <div className="container faq__grid">
-          <div>
+          <div data-reveal="left">
             <p className="eyebrow">Dúvidas frequentes</p>
             <h2 id="faq-title">Antes de começar.</h2>
           </div>
           <div className="faq__list">
             {siteConfig.faqs.map((item, index) => (
-              <details key={item.question} open={index === 0}>
+              <details data-reveal="up" key={item.question} open={index === 0}>
                 <summary>
                   {item.question}
                   <span aria-hidden="true">+</span>

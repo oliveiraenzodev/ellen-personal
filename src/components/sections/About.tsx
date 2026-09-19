@@ -7,7 +7,7 @@ export function About() {
   return (
     <section className="about section" id="sobre">
       <div className="container about__grid">
-        <div className="about__visual">
+        <div className="about__visual" data-reveal="left">
           <div className="about__image">
             <Image
               src="/images/ellen-treino.jpeg"
@@ -22,7 +22,7 @@ export function About() {
           </div>
         </div>
 
-        <div className="about__content">
+        <div className="about__content" data-reveal="right">
           <p className="eyebrow">Sobre Ellen</p>
           <h2>Você não precisa de um treino genérico.</h2>
           <p className="about__intro">

@@ -7,6 +7,7 @@ import { Results } from "@/components/sections/Results";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { getWhatsAppUrl } from "@/utils/whatsapp";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 export default function Home() {
   const structuredData = {
@@ -30,6 +31,7 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
+      <ScrollReveal />
       <a className="skip-link" href="#conteudo">
         Pular para o conteúdo
       </a>

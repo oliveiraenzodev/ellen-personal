@@ -15,7 +15,7 @@ export function FinalCTA() {
           sizes="100vw"
         />
       </div>
-      <div className="container final-cta__content">
+      <div className="container final-cta__content" data-reveal="up">
         <p className="eyebrow">Seu primeiro passo é agora</p>
         <h2>Pronta para começar sua evolução?</h2>
         <p>

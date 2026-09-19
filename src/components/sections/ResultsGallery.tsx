@@ -44,7 +44,7 @@ export function ResultsGallery() {
   }, []);
 
   return (
-    <div className="results-gallery">
+    <div className="results-gallery" data-reveal="up">
       <div className="results-gallery__track" ref={trackRef} onScroll={updateControls}>
         {siteConfig.results.map((result, index) => (
           <figure className="result-card" key={result.src}>

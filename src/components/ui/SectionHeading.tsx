@@ -12,7 +12,10 @@ export function SectionHeading({
   light = false,
 }: SectionHeadingProps) {
   return (
-    <div className={`section-heading${light ? " section-heading--light" : ""}`}>
+    <div
+      className={`section-heading${light ? " section-heading--light" : ""}`}
+      data-reveal="up"
+    >
       <p className="eyebrow">{eyebrow}</p>
       <h2>{title}</h2>
       {description && <p className="section-heading__description">{description}</p>}

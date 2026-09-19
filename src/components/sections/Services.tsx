@@ -15,7 +15,7 @@ export function Services() {
 
         <div className="services__grid">
           {siteConfig.services.map((service) => (
-            <article className="service-card" key={service.number}>
+            <article className="service-card" data-reveal="up" key={service.number}>
               <span className="service-card__number">{service.number}</span>
               <div>
                 <h3>{service.title}</h3>
@@ -25,7 +25,7 @@ export function Services() {
           ))}
         </div>
 
-        <div className="differentials">
+        <div className="differentials" data-reveal="up">
           <p className="eyebrow">O que você encontra aqui</p>
           <ul>
             {siteConfig.differentials.map((item) => (
