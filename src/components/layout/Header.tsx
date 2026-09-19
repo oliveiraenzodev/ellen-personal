@@ -2,6 +2,7 @@ import Image from "next/image";
 import { siteConfig } from "@/data/site";
 import { getWhatsAppUrl } from "@/utils/whatsapp";
 import { SocialIconLink } from "@/components/ui/SocialIconLink";
+import { getAssetPath } from "@/utils/assets";
 
 export function Header() {
   const whatsappUrl = getWhatsAppUrl();
@@ -11,7 +12,7 @@ export function Header() {
       <div className="container site-header__inner">
         <a className="brand" href="#inicio" aria-label="Ellen Alves - início">
           <Image
-            src="/images/logo-ellen-alves.png"
+            src={getAssetPath("/images/logo-ellen-alves.png")}
             alt="Ellen Alves Personal Trainer"
             width={1280}
             height={384}

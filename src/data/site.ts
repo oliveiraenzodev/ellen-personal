@@ -1,3 +1,5 @@
+import { getAssetPath } from "@/utils/assets";
+
 export const siteConfig = {
   professional: {
     name: "Ellen Alves",
@@ -77,25 +79,25 @@ export const siteConfig = {
   ],
   results: [
     {
-      src: "/images/resultado-1.png",
+      src: getAssetPath("/images/resultado-1.png"),
       width: 1080,
       height: 1920,
       alt: "Registro de evolução corporal de aluna acompanhada por Ellen Alves",
     },
     {
-      src: "/images/resultado-2.png",
+      src: getAssetPath("/images/resultado-2.png"),
       width: 1080,
       height: 1350,
       alt: "Comparativo lateral de evolução corporal de aluna acompanhada por Ellen Alves",
     },
     {
-      src: "/images/resultado-3.png",
+      src: getAssetPath("/images/resultado-3.png"),
       width: 1080,
       height: 1350,
       alt: "Registro lateral de evolução corporal de aluno acompanhado por Ellen Alves",
     },
     {
-      src: "/images/resultado-4.png",
+      src: getAssetPath("/images/resultado-4.png"),
       width: 1080,
       height: 1920,
       alt: "Registro frontal de evolução corporal de aluno acompanhado por Ellen Alves",

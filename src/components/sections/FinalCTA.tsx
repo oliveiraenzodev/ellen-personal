@@ -3,13 +3,14 @@ import { siteConfig } from "@/data/site";
 import { getWhatsAppUrl } from "@/utils/whatsapp";
 import { CtaLink } from "@/components/ui/CtaLink";
 import { SocialIconLink } from "@/components/ui/SocialIconLink";
+import { getAssetPath } from "@/utils/assets";
 
 export function FinalCTA() {
   return (
     <section className="final-cta" id="contato">
       <div className="final-cta__image" aria-hidden="true">
         <Image
-          src="/images/ellen-barra.jpeg"
+          src={getAssetPath("/images/ellen-barra.jpeg")}
           alt=""
           fill
           sizes="100vw"

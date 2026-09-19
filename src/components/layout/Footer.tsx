@@ -2,6 +2,7 @@ import Image from "next/image";
 import { siteConfig } from "@/data/site";
 import { getWhatsAppUrl } from "@/utils/whatsapp";
 import { SocialIconLink } from "@/components/ui/SocialIconLink";
+import { getAssetPath } from "@/utils/assets";
 
 export function Footer() {
   return (
@@ -9,7 +10,7 @@ export function Footer() {
       <div className="container site-footer__grid">
         <div className="site-footer__brand">
           <Image
-            src="/images/logo-ellen-alves.png"
+            src={getAssetPath("/images/logo-ellen-alves.png")}
             alt="Ellen Alves Personal Trainer"
             width={1280}
             height={384}

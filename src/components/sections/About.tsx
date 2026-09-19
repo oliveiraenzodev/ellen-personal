@@ -2,6 +2,7 @@ import Image from "next/image";
 import { siteConfig } from "@/data/site";
 import { CtaLink } from "@/components/ui/CtaLink";
 import { getWhatsAppUrl } from "@/utils/whatsapp";
+import { getAssetPath } from "@/utils/assets";
 
 export function About() {
   return (
@@ -10,7 +11,7 @@ export function About() {
         <div className="about__visual" data-reveal="left">
           <div className="about__image">
             <Image
-              src="/images/ellen-treino.jpeg"
+              src={getAssetPath("/images/ellen-treino.jpeg")}
               alt="Ellen Alves durante treino com halteres"
               fill
               sizes="(max-width: 767px) 100vw, 45vw"

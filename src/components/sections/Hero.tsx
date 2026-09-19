@@ -2,6 +2,7 @@ import Image from "next/image";
 import { siteConfig } from "@/data/site";
 import { getWhatsAppUrl } from "@/utils/whatsapp";
 import { CtaLink } from "@/components/ui/CtaLink";
+import { getAssetPath } from "@/utils/assets";
 
 export function Hero() {
   return (
@@ -45,7 +46,7 @@ export function Hero() {
         <div className="hero__visual">
           <div className="hero__image-frame">
             <Image
-              src="/images/ellen-halteres.jpeg"
+              src={getAssetPath("/images/ellen-halteres.jpeg")}
               alt="Ellen Alves treinando com halteres"
               fill
               priority
