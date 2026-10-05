@@ -21,7 +21,7 @@ export function Hero() {
           </p>
           <div className="hero__actions">
             <CtaLink href={getWhatsAppUrl()} target="_blank" rel="noreferrer">
-              Quero começar
+              Conversar no WhatsApp
             </CtaLink>
             <CtaLink href="#servicos" variant="secondary">
               Conhecer o acompanhamento
@@ -46,7 +46,7 @@ export function Hero() {
         <div className="hero__visual">
           <div className="hero__image-frame">
             <Image
-              src={getAssetPath("/images/ellen-halteres.jpeg")}
+              src={getAssetPath("/images/ellen-halteres.png")}
               alt="Ellen Alves treinando com halteres"
               fill
               priority

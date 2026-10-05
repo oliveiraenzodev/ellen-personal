@@ -3,6 +3,7 @@ type SocialIconLinkProps = {
   href: string;
   label: string;
   className?: string;
+  text?: string;
 };
 
 export function SocialIconLink({
@@ -10,6 +11,7 @@ export function SocialIconLink({
   href,
   label,
   className = "",
+  text,
 }: SocialIconLinkProps) {
   return (
     <a
@@ -31,6 +33,7 @@ export function SocialIconLink({
           <circle className="instagram-icon__dot" cx="23.25" cy="8.75" r="1.35" />
         </svg>
       )}
+      {text && <span>{text}</span>}
     </a>
   );
 }

@@ -27,6 +27,9 @@ export function Footer() {
 
         <div>
           <p className="footer-title">Contato</p>
+          <a className="site-footer__phone" href={`tel:+${siteConfig.contact.whatsapp}`}>
+            {siteConfig.contact.whatsappDisplay}
+          </a>
           <div className="footer-social" aria-label="Redes sociais de Ellen Alves">
             <SocialIconLink
               network="whatsapp"

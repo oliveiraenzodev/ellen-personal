@@ -1,4 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import Image from "next/image";
+import { getAssetPath } from "@/utils/assets";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -34,13 +36,29 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  viewportFit: "cover",
   themeColor: "#090a0a",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="pt-BR">
-      <body>{children}</body>
+    <html lang="pt-BR" suppressHydrationWarning>
+      <head>
+        <meta name="darkreader-lock" />
+      </head>
+      <body suppressHydrationWarning>
+        <div className="site-background" aria-hidden="true">
+          <Image
+            src={getAssetPath("/images/site-background-responsive.png")}
+            alt=""
+            width={793}
+            height={1983}
+            sizes="(max-width: 767px) 100vw, 58vw"
+            priority
+          />
+        </div>
+        <div className="site-content">{children}</div>
+      </body>
     </html>
   );
 }

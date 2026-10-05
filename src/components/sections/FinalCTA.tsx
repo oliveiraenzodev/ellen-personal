@@ -20,18 +20,19 @@ export function FinalCTA() {
         <p className="eyebrow">Seu primeiro passo é agora</p>
         <h2>Vamos construir sua evolução?</h2>
         <p>
-          Me conte seu objetivo e vamos descobrir qual acompanhamento faz sentido
-          para a sua realidade.
+          Na primeira conversa, quero entender seu objetivo e sua rotina para indicar
+          o acompanhamento que faz sentido para você.
         </p>
         <div className="final-cta__actions">
           <CtaLink href={getWhatsAppUrl()} target="_blank" rel="noreferrer">
-            Entre em contato
+            Conversar no WhatsApp
           </CtaLink>
           <SocialIconLink
             className="final-cta__instagram"
             network="instagram"
             href={siteConfig.contact.instagram}
             label={`Acessar Instagram de Ellen Alves: ${siteConfig.contact.instagramHandle}`}
+            text="Ver Instagram"
           />
         </div>
       </div>

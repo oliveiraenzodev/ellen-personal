@@ -24,7 +24,7 @@ export function Results() {
         <div className="results__cta">
           <p>Quero conhecer seu objetivo. Nosso primeiro passo pode ser uma conversa.</p>
           <CtaLink href={getWhatsAppUrl()} target="_blank" rel="noreferrer">
-            Quero começar meu processo
+            Conversar no WhatsApp
           </CtaLink>
         </div>
       </div>

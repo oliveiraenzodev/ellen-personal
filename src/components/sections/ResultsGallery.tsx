@@ -45,7 +45,13 @@ export function ResultsGallery() {
 
   return (
     <div className="results-gallery" data-reveal="up">
-      <div className="results-gallery__track" ref={trackRef} onScroll={updateControls}>
+      <div
+        className="results-gallery__track"
+        ref={trackRef}
+        onScroll={updateControls}
+        tabIndex={0}
+        aria-label="Registros de evolução. Deslize horizontalmente para ver todos."
+      >
         {siteConfig.results.map((result, index) => (
           <figure className={`result-card result-card--${index + 1}`} key={result.src}>
             <div className="result-card__media">
@@ -57,12 +63,16 @@ export function ResultsGallery() {
               />
             </div>
             <figcaption>
-              <span>Resultado do acompanhamento</span>
+              <span>{result.caption}</span>
               <strong>{String(index + 1).padStart(2, "0")}</strong>
             </figcaption>
           </figure>
         ))}
       </div>
+
+      <p className="results-gallery__hint" aria-hidden="true">
+        Deslize para ver mais <span>→</span>
+      </p>
 
       {controls.hasOverflow && controls.canGoBack && (
         <button
