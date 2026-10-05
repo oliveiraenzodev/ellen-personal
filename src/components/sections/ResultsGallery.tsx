@@ -10,6 +10,7 @@ export function ResultsGallery() {
     hasOverflow: false,
     canGoBack: false,
     canGoForward: false,
+    currentIndex: 1,
   });
 
   function updateControls() {
@@ -19,8 +20,11 @@ export function ResultsGallery() {
     const hasOverflow = track.scrollWidth > track.clientWidth + 1;
     const canGoBack = track.scrollLeft > 1;
     const canGoForward = track.scrollLeft + track.clientWidth < track.scrollWidth - 1;
+    const card = track.querySelector<HTMLElement>(".result-card");
+    const step = card ? card.offsetWidth + parseFloat(getComputedStyle(track).gap) : track.clientWidth;
+    const currentIndex = Math.min(siteConfig.results.length, Math.round(track.scrollLeft / step) + 1);
 
-    setControls({ hasOverflow, canGoBack, canGoForward });
+    setControls({ hasOverflow, canGoBack, canGoForward, currentIndex });
   }
 
   function move(direction: -1 | 1) {
@@ -28,8 +32,11 @@ export function ResultsGallery() {
     if (!track) return;
 
     const card = track.querySelector<HTMLElement>(".result-card");
-    const distance = card ? card.offsetWidth + 16 : track.clientWidth * 0.8;
-    track.scrollBy({ left: distance * direction, behavior: "smooth" });
+    const distance = card ? card.offsetWidth + parseFloat(getComputedStyle(track).gap) : track.clientWidth;
+    track.scrollBy({
+      left: distance * direction,
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
+    });
   }
 
   useEffect(() => {
@@ -70,29 +77,41 @@ export function ResultsGallery() {
         ))}
       </div>
 
-      <p className="results-gallery__hint" aria-hidden="true">
-        Deslize para ver mais <span>→</span>
-      </p>
-
-      {controls.hasOverflow && controls.canGoBack && (
-        <button
-          className="results-gallery__arrow results-gallery__arrow--previous"
-          type="button"
-          onClick={() => move(-1)}
-          aria-label="Ver resultados anteriores"
-        >
-          ←
-        </button>
-      )}
-      {controls.hasOverflow && controls.canGoForward && (
-        <button
-          className="results-gallery__arrow results-gallery__arrow--next"
-          type="button"
-          onClick={() => move(1)}
-          aria-label="Ver próximos resultados"
-        >
-          →
-        </button>
+      {controls.hasOverflow && (
+        <div className="results-gallery__controls">
+          <p className="results-gallery__status">
+            <span className="results-gallery__hint">Deslize para explorar</span>
+            <span className="results-gallery__count" aria-live="polite" aria-atomic="true">
+              {String(controls.currentIndex).padStart(2, "0")}
+              <span aria-hidden="true"> / </span>
+              {String(siteConfig.results.length).padStart(2, "0")}
+            </span>
+          </p>
+          <div className="results-gallery__navigation" aria-label="Navegar pelos resultados">
+            <button
+              className="results-gallery__arrow results-gallery__arrow--previous"
+              type="button"
+              onClick={() => move(-1)}
+              aria-label="Ver resultado anterior"
+              disabled={!controls.canGoBack}
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 12H4m0 0 7-7m-7 7 7 7" />
+              </svg>
+            </button>
+            <button
+              className="results-gallery__arrow results-gallery__arrow--next"
+              type="button"
+              onClick={() => move(1)}
+              aria-label="Ver próximo resultado"
+              disabled={!controls.canGoForward}
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 12h16m0 0-7-7m7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
       )}
     </div>
   );
